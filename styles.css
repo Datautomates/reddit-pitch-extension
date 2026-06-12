@@ -1,0 +1,42 @@
+/* Styling for the injected button */
+.ai-pitch-btn {
+    background: linear-gradient(135deg, #ff4500, #ff8717);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    transition: transform 0.2s ease;
+  }
+  
+  .ai-pitch-btn:hover {
+    transform: scale(1.05);
+  }
+  
+  .ai-pitch-btn:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+    transform: none;
+  }
+  
+  /* Styling for the result box */
+  .ai-pitch-result-box {
+    background-color: #f9f9f9;
+    border-left: 4px solid #ff4500;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-family: system-ui, -apple-system, sans-serif;
+    color: #333;
+    white-space: pre-wrap;
+    font-size: 14px;
+    line-height: 1.5;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
